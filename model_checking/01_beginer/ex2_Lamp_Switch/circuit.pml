@@ -30,15 +30,15 @@ active proctype circuit()
       fi;
       if
       ::(Tmr2 == 4) -> Tmr2 = 1       ; Sw2 = On;
-      ::else        -> Tmr2 = Tmr2 + 2; Sw2 = Off;
+      ::else        -> Tmr2 = Tmr2 + 1; Sw2 = Off;
       fi;
       if
       ::(Tmr3 == 6) -> Tmr3 = 1       ; Sw3 = On;
-      ::else        -> Tmr3 = Tmr3 + 2; Sw3 = Off;
+      ::else        -> Tmr3 = Tmr3 + 1; Sw3 = Off;
       fi;
       if
       ::(Tmr4 == 3) -> Tmr4 = 1       ; Sw4 = On;
-      ::else        -> Tmr4 = Tmr4 + 2; Sw4 = Off;
+      ::else        -> Tmr4 = Tmr4 + 1; Sw4 = Off;
       fi;
     }
   od
