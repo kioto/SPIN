@@ -204,7 +204,7 @@ depth-limit (-u100 steps) reached
 $
 ```
 
-## 2.1.3 不具合の自動県地方 - assert文
+## 2.1.3 不具合の自動検知法 - assert文
 
 不具合を自動的に検知する、assert文を使用した方法を示す。<br>
 まずalt3.pmlにasseert文を挿入したalt4.pmlを示す。
